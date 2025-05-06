@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 793.70081 1122.5197"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="dnd-zones.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.79375"
+     inkscape:cx="563.14961"
+     inkscape:cy="240"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="933"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-4-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-9-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-4-1-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-9-7-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-4-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-9-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-4-3-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-9-1-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-4-4-3-7-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5-5-9-1-3-9" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#b3b3b3;stroke-width:4.22564;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1"
+       width="188.97638"
+       height="302.36221"
+       x="113.38583"
+       y="113.38583" />
+    <rect
+       style="fill:none;stroke:#b3b3b3;stroke-width:3.77952765;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-7"
+       width="188.97638"
+       height="302.36221"
+       x="302.36221"
+       y="113.38583" />
+    <rect
+       style="fill:none;stroke:#b3b3b3;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-7-5"
+       width="188.97638"
+       height="302.36221"
+       x="491.33859"
+       y="113.38583" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="204.0031"
+       y="130.28142"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="204.0031"
+         y="130.28142">Ranged</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="594.75854"
+       y="129.96864"
+       id="text1-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-6"
+         x="594.75854"
+         y="129.96864">Ranged</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="394.91064"
+       y="130.41769"
+       id="text1-3"><tspan
+         sodipodi:role="line"
+         id="tspan1-7"
+         x="394.91064"
+         y="130.41769">Close</tspan></text>
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2"
+       cx="207.52357"
+       cy="202.07042"
+       r="9.4488192" />
+    <circle
+       style="fill:#1a1a1a;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8"
+       cx="442.90585"
+       cy="244.23697"
+       r="9.4488192" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 207.87402,151.18111 v 11.33858"
+       id="path3" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 207.87402,170.07874 v 11.33858"
+       id="path3-5" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 585.82679,151.18111 v 11.33858"
+       id="path3-4" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 444.0945,170.07874 v 11.33858"
+       id="path3-5-2" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.37795277;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#ArrowWideRounded);marker-end:url(#ArrowWideRounded)"
+       d="M 208.45731,156.7884 H 584.39314"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="391.08017"
+       y="152.7796"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="391.08017"
+         y="152.7796"
+         style="font-size:10.6667px">Range 100 ft</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.393701;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#ArrowWideRounded-4);marker-end:url(#ArrowWideRounded-4)"
+       d="M 207.87402,175.74804 H 444.0945"
+       id="path4-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="335.08017"
+       y="171.44334"
+       id="text5-4"><tspan
+         sodipodi:role="line"
+         id="tspan5-8"
+         x="335.08017"
+         y="171.44334"
+         style="font-size:10.6667px">Range 50 ft</tspan></text>
+    <circle
+       style="fill:#1a1a1a;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-3"
+       cx="586.9007"
+       cy="202.54529"
+       r="9.4488192" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5"
+       cx="348.552"
+       cy="244.54169"
+       r="9.4488192" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 348.38785,298.9217 v 11.33858"
+       id="path3-5-5" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 585.84963,299.81254 v 11.33858"
+       id="path3-5-2-7" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.393701;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.14960789,3.14960789;stroke-dashoffset:0;marker-end:url(#ArrowWideRounded-4-4)"
+       d="M 349.27869,305.48184 H 585.49917"
+       id="path4-3-6" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="458.28415"
+       y="301.17715"
+       id="text5-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-0"
+         x="458.28415"
+         y="301.17715"
+         style="font-size:10.6667px">Engage 50 ft</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 347.73382,214.65789 v 11.33858"
+       id="path3-5-5-3" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 443.55153,214.21247 v 11.33858"
+       id="path3-5-2-7-7" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.755908, 0.377953;stroke-dashoffset:0;marker-start:url(#ArrowWideRounded-4);marker-end:url(#ArrowWideRounded-4-4-1)"
+       d="m 348.62466,221.21803 h 94.48819"
+       id="path4-3-6-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="394.7641"
+       y="215.57704"
+       id="text5-4-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-0-3"
+         x="394.7641"
+         y="215.57704"
+         style="font-size:10.6667px">Range 20 ft</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 348.59982,278.19489 v 11.33858"
+       id="path3-5-5-3-9" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 444.41753,277.74947 v 11.33858"
+       id="path3-5-2-7-7-6" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.02362394,3.02362394;stroke-dashoffset:0;marker-start:url(#ArrowWideRounded-4-5);marker-end:url(#ArrowWideRounded-4-4-1-7)"
+       d="m 349.49066,284.75503 h 94.48819"
+       id="path4-3-6-5-2" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="395.6301"
+       y="279.11404"
+       id="text5-4-8-8-0"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-0-3-0"
+         x="395.6301"
+         y="279.11404"
+         style="font-size:10.6667px">Engage 20 ft</tspan></text>
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9"
+       cx="394.58563"
+       cy="360.39371"
+       r="9.4488192" />
+    <circle
+       style="fill:#1a1a1a;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-5"
+       cx="411.78638"
+       cy="349.93069"
+       r="9.4488192" />
+    <circle
+       style="fill:#1a1a1a;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-2"
+       cx="412.01346"
+       cy="369.72998"
+       r="9.4488192" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="403.27155"
+       y="408.70398"
+       id="text1-3-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-7-3"
+         x="403.27155"
+         y="408.70398">Melee</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.02362, 3.02362;stroke-dashoffset:0;marker-end:url(#ArrowWideRounded-4-4-3)"
+       d="m 348.7954,324.44374 54.26576,21.15753"
+       id="path4-3-6-56"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 348.58003,318.07382 V 329.4124"
+       id="path3-5-5-6" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="400.99216"
+       y="331.80472"
+       id="text5-4-8-8-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-0-3-0-8"
+         x="400.99216"
+         y="331.80472"
+         style="font-size:10.6667px">Engage 10 ft</tspan></text>
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.377953, 1.13386;stroke-dashoffset:0;marker-end:url(#ArrowWideRounded-4-4-3-7)"
+       d="m 216.38798,227.08567 c 27.61547,18.36751 44.1402,20.13924 121.69243,18.30864"
+       id="path4-3-6-56-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#1a1a1a;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.377953, 1.13386;stroke-dashoffset:0;marker-end:url(#ArrowWideRounded-4-4-3-7-8)"
+       d="m 385.24162,361.00226 c -61.65284,-1.3033 -67.3011,-43.25401 -44.57513,-90.16333"
+       id="path4-3-6-56-3-5"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="269.76511"
+       y="234.19841"
+       id="text5-4-8-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-0-3-7"
+         x="269.76511"
+         y="234.19841"
+         style="font-size:10.6667px">Move 30 ft</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="340.19025"
+       y="345.89133"
+       id="text5-4-8-8-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-0-3-7-3"
+         x="340.19025"
+         y="345.89133"
+         style="font-size:10.6667px">Move 10 ft</tspan><tspan
+         sodipodi:role="line"
+         x="340.19025"
+         y="359.2247"
+         style="font-size:10.6667px"
+         id="tspan6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.02362, 3.02362;stroke-dashoffset:0"
+       x="344.36218"
+       y="353.38583"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="344.36218"
+         y="353.38583">(Opportunity Attack)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.02362, 3.02362;stroke-dashoffset:0"
+       x="558.4115"
+       y="321.2095"
+       id="text7-3"><tspan
+         sodipodi:role="line"
+         id="tspan7-2"
+         x="558.4115"
+         y="321.2095">(Avoid costs 20 ft speed, Int save)</tspan></text>
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-3"
+       cx="207.48526"
+       cy="220.686"
+       r="9.4488192" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-3"
+       cx="348.64203"
+       cy="263.95709"
+       r="9.4488192" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9-9"
+       cx="393.72998"
+       cy="379.73877"
+       r="9.4488192" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="179.41995"
+       y="213.17921"
+       id="text5-4-1"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-1"
+         x="179.41995"
+         y="213.17921"
+         style="font-size:10.6667px">Touch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="321.86212"
+       y="259.58209"
+       id="text5-4-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-1-2"
+         x="321.86212"
+         y="259.58209"
+         style="font-size:10.6667px">Touch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="364.9873"
+       y="377.39896"
+       id="text5-4-1-0-6"><tspan
+         sodipodi:role="line"
+         id="tspan5-8-1-2-6"
+         x="364.9873"
+         y="377.39896"
+         style="font-size:10.6667px">Touch</tspan></text>
+  </g>
+</svg>
