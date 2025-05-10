@@ -42,6 +42,8 @@ Engaging someone, even in the Ranged zone, brings them into the Melee, in the Cl
 
 Similarly when you Engage a creature in their Ranged zone, they get pulled into the Close Combat zone and into the Melee. This also represents the abstract nature of combat; they lose their ranged advantage.
 
+It is not necessarily that the new creature has been moved into the melee, but may be that the melee has expanded/moved to where the creature is.
+
 Note that engaging someone who is in their Ranged zone requires a lot of movement, so you generally need either access to additional movement, or to give up your action by Dashing.
 
 ### Avoiding engagement: tactics check
@@ -125,3 +127,16 @@ You can always cast a spell or use a ranged weapon by moving closer (at greater 
 
 TODO
 
+Generally area spells can affect all creatures engaged in the melee. You may exempt one ally (or creature) from the area.
+
+In other zones creatures are generally more spread out, and you can affect a number of creatures based on the size and shape of the effect.
+
+TODO: Table (from 2014 ?)
+
+Narrative circumstances may alter this.
+
+## References
+
+Some alternative approaches:
+- <https://slyflourish.com/guide_to_narrative_combat.html>
+- <https://oracle-rpg.com/2024/11/theater-of-the-mind-rules-for-tactical-combat/>
