@@ -6,7 +6,7 @@ For Dungeons & Dragons, 5th edition.
 
 Rules for combat without a grid, using mostly theatre of the mind, but with abstract zones.
 
-These rules are deliberately more abstract than precise positioning using measurements or grids, but less abstract than theatre of the mind. 
+These rules are deliberately more abstract than precise positioning using measurements or grids, but less abstract than theatre of the mind.
 
 A character with 35 ft movement is treated the same as one with 25 ft. A heavy crossbow and a longbow work out to have the same range in zones, as do the ray of frost and chromatic orb spells. A melee weapon with 10 ft reach is no different from 5 ft. You can't precisely position a spell to affect specific enemies whilst avoiding friendlies.
 
@@ -17,10 +17,11 @@ They are a middle ground between gridded combat and pure theatre of the mind.
 ## Zones
 
 Combat is divided up into zones:
-* Out of combat zone, for each side
-* Long range (far), for each side
-* Close range (near)
-* Melee (engaged), within the close range zone.
+
+- Out of combat zone, for each side
+- Long range (far), for each side
+- Close range (near)
+- Melee (engaged), within the close range zone.
 
 The close range zone spotlight is not static, but moves focus as characters reposition; moving towards an enemy will move them into the close range zone, i.e. shift the focus.
 
@@ -42,11 +43,11 @@ There are three areas of play, a long range for each side, and a shared close ra
 
 The range for weapons, spells, and powers, is based on the distance between zones. Melee is part of close range, with the difference being who is affect by short range (20 ft or less) spells.
 
-| Your zone   | Long range (friendly) | Close range (friendly) | Melee | Close range (enemy) | Long range (enemy) 
-| --          | -- | -- | -- | -- |
-| Long range  | Touch | 50 ft | 50 ft | 50 ft | 100 ft |
-| Close range | 50 ft | Touch | 25 ft | 25 ft | 50 ft |
-| Melee       | 50 ft | 25 ft | Touch | 25 ft | 50 ft |
+| Your zone   | Long range (friendly) | Close range (friendly) | Melee | Close range (enemy) | Long range (enemy) |
+| ----------- | --------------------- | ---------------------- | ----- | ------------------- | ------------------ |
+| Long range  | Touch                 | 50 ft                  | 50 ft | 50 ft               | 100 ft             |
+| Close range | 50 ft                 | Touch                  | 25 ft | 25 ft               | 50 ft              |
+| Melee       | 50 ft                 | 25 ft                  | Touch | 25 ft               | 50 ft              |
 
 From long range to close, and vice versa, is 50 ft (e.g. ray of frost or chromatic orb spell, normal range for a short bow, max range for a spear); two friendly characters at long range can touch (e.g. cure wounds, or give a potion); and long range to the enemy long range is 100 ft (e.g. fire bolt spell, normal range for a longbow, or max range for a short bow).
 
@@ -60,14 +61,14 @@ For those used to precise tactical positioning being unable to move in and hit w
 
 A standard move is based on the usual speed of 30 ft for characters. You get one standard move per turn, the dash action gives you a second standard move, and if you have an ability to dash as a bonus action you can get a third standard move.
 
-| Movement                            | Cost             | Notes | 
-| -- | -- | -- |
-| Out of combat to long range         | 2 standard moves | or vice versa |
-| Between long range and close range  | 1 standard move  | or vice versa |
-| Move the focus (at close range)     | 1 standard move  | shifts an enemy from long range to close range |
-| Engage another enemy in close range | 1 standard move  | moves both of you into the melee |
-| Join the melee (from close range)   | 1/2 standard move | easier, as they are already engaged |
-| Withdraw from melee to close range  | 1 standard move  | may trigger opportunity attack |
+| Movement                            | Cost              | Notes                                          |
+| ----------------------------------- | ----------------- | ---------------------------------------------- |
+| Out of combat to long range         | 2 standard moves  | or vice versa                                  |
+| Between long range and close range  | 1 standard move   | or vice versa                                  |
+| Move the focus (at close range)     | 1 standard move   | shifts an enemy from long range to close range |
+| Engage another enemy in close range | 1 standard move   | moves both of you into the melee               |
+| Join the melee (from close range)   | 1/2 standard move | easier, as they are already engaged            |
+| Withdraw from melee to close range  | 1 standard move   | may trigger opportunity attack                 |
 
 All melee combat takes place in the close range zone, so to engage an enemy at long range, first you need to "shift the focus" to bring them into close range. This closes the distance to them, moving the focus of action to where they are, moving the zone to them.
 
@@ -81,13 +82,13 @@ If you are currently in melee and want to engage another enemy into the melee yo
 
 Standard movement is based on rounding to the nearest 30 ft.
 
-| Speed | Standard moves |
-| -- | -- |
-| 0 ft | none |
-| 5 - 15 ft | 1/2 standard move |
-| 20 - 45 ft | 1 standard move |
-| 50 - 75 ft | 2 standard moves |
-| 80+ | 3 standard moves |
+| Speed      | Standard moves    |
+| ---------- | ----------------- |
+| 0 ft       | none              |
+| 5 - 15 ft  | 1/2 standard move |
+| 20 - 45 ft | 1 standard move   |
+| 50 - 75 ft | 2 standard moves  |
+| 80+        | 3 standard moves  |
 
 Dashing multiplies the amount, e.g. a character with 50 ft who dashes gets 4 standard moves, allowing them to move from long to close (1 move), shift focus to pull an enemy to close range (1 move), and then engage that enemy (1 move).
 
@@ -112,9 +113,9 @@ Long lines spread their effects across multiple zones based on their length and 
 Use the guidelines in "Adjudicating Areas of Effect" and associated table (Dungeon Master's Guide, p. 83) for the maximum number of targets in the area. Generally you can position the area to affect less if you want.
 
 | Size  | Cone | Cube | Radius |
-| --    | --   | --   | --     |
+| ----- | ---- | ---- | ------ |
 | 5 ft  | 1    | 1    | 1      |
-| 10 ft | 1    | 1    | 3      | 
+| 10 ft | 1    | 1    | 3      |
 | 15 ft | 2    | 2    | 6      |
 | 20 ft | 2    | 4    | 10     |
 | 25 ft | 3    | 6    | 16     |
@@ -125,11 +126,11 @@ Use the guidelines in "Adjudicating Areas of Effect" and associated table (Dunge
 For lines the number of targets affected is based on length and width:
 
 | Length | 5 ft wide | 10 ft wide |
-| --     | --        | --    |
-| 30 ft  | 2         | 3 |
-| 60 ft  | 3         | 5 |
-| 90 ft  | 4         | 8 |
-| 120 ft | 5         | 10 |
+| ------ | --------- | ---------- |
+| 30 ft  | 2         | 3          |
+| 60 ft  | 3         | 5          |
+| 90 ft  | 4         | 8          |
+| 120 ft | 5         | 10         |
 
 Adjust for how bunched up or spread out the targets are, for their size (less large creatures fit in an area), available cover, or other factors.
 
@@ -143,7 +144,7 @@ If the spell can select targets, or the caster has a way to exclude targets, the
 
 ## Terrain
 
-Terrain can be incorporated using theatre of the mind. Each zone can be described with a specific feature, that can then be used. 
+Terrain can be incorporated using theatre of the mind. Each zone can be described with a specific feature, that can then be used.
 
 e.g. stacked crates in the enemy long range zone give them cover, while exposed lava veins in the close zone can be used to push creatures into.
 
@@ -151,21 +152,21 @@ e.g. stacked crates in the enemy long range zone give them cover, while exposed 
 
 To represent a long range battle, such as in an open outdoor field, you can use longer range zones:
 
-| Your zone   | Long range (friendly) | Close range (friendly) | Melee | Close range (enemy) | Long range (enemy) 
-| --          | -- | -- | -- | -- |
-| Long range  | Touch | 100 ft | 100 ft | 100 ft | 200 ft |
-| Close range | 100 ft | Touch | 50 ft | 50 ft | 100 ft |
-| Melee       | 100 ft | 50 ft | Touch | 50 ft | 100 ft |
+| Your zone   | Long range (friendly) | Close range (friendly) | Melee  | Close range (enemy) | Long range (enemy) |
+| ----------- | --------------------- | ---------------------- | ------ | ------------------- | ------------------ |
+| Long range  | Touch                 | 100 ft                 | 100 ft | 100 ft              | 200 ft             |
+| Close range | 100 ft                | Touch                  | 50 ft  | 50 ft               | 100 ft             |
+| Melee       | 100 ft                | 50 ft                  | Touch  | 50 ft               | 100 ft             |
 
 The amount of movement required is increased correspondingly:
 
 | Movement                            | Cost             |
-| -- | -- |
+| ----------------------------------- | ---------------- |
 | Out of combat to long range         | 2 standard moves |
-| Between long range and close range  | 2 standard moves  |
-| Move the focus (at close range)     | 2 standard moves  |
-| Engage another enemy in close range | 2 standard moves  |
-| Join the melee (from close range)   | 1 standard move |
+| Between long range and close range  | 2 standard moves |
+| Move the focus (at close range)     | 2 standard moves |
+| Engage another enemy in close range | 2 standard moves |
+| Join the melee (from close range)   | 1 standard move  |
 | Withdraw from melee to close range  | 2 standard move  |
 
 Longer ranges are advantageous for those with long range weapons and high movement speeds, that usually are not as beneficial withing more constrained areas.
