@@ -6,13 +6,22 @@ For Dungeons & Dragons, 5th edition.
 
 Rules for combat without a grid, using mostly theatre of the mind, but with abstract zones.
 
-These rules are deliberately more abstract than precise positioning using measurements or grids, but less abstract than theatre of the mind.
+These rules are deliberately more abstract (simpler) than precise positioning using measurements or grids, but less abstract than theatre of the mind.
 
-A character with 35 ft movement is treated the same as one with 25 ft. A heavy crossbow and a longbow work out to have the same range in zones, as do the ray of frost and chromatic orb spells. A melee weapon with 10 ft reach is no different from 5 ft. You can't precisely position a spell to affect specific enemies whilst avoiding friendlies.
+* All ranges are either 100 ft, 50 ft, 25 ft, or touch.
+* Movement, whether moving closer to an enemy, engaging an enemy, or withdrawing from combat, is always just one standard move. 
 
-The more abstract nature makes combat faster and easier, although there is a loss of some tactical nuance. The rules deliberately focus on one central fight, instead of multiple small engagements.
+A character with 35 ft movement is treated the same as one with 25 ft (one standard move). A heavy crossbow and a longbow work out to have the same range category (100 ft) in zones, as do the ray of frost and chromatic orb spells (50 ft). A melee weapon with 10 ft reach is no different from 5 ft (touch range). You can't precisely position a spell to affect specific enemies whilst avoiding friendlies.
 
-They are a middle ground between gridded combat and pure theatre of the mind.
+The more abstract nature makes combat faster and easier; there is a loss of some tactical nuance but different distances/ranges and actions like dash, work as normal. The rules deliberately focus on one central fight, instead of multiple small engagements.
+
+Zoned combat is a middle ground between gridded combat and pure theatre of the mind.
+
+It address some common questions in pure theatre of the mind such as "how far away are they", "where am I" (in relation to the action), and "can I get to them and attack", while being faster and more flexible than a grid.
+
+![Zones](dnd-zones.png)
+
+Printable sheet: [Zoned Combat Sheet](dnd-zones-udt.pdf)
 
 ## Zones
 
@@ -25,19 +34,23 @@ Combat is divided up into zones:
 
 The close range zone spotlight is not static, but moves focus as characters reposition; moving towards an enemy will move them into the close range zone, i.e. shift the focus.
 
-All melee combat takes place in the close range zone. Generally there is just one melee, with all characters in range of each other, although in some cases you may decide there are two separate melee groups (but feel free to merge them after a round or two as the chaos of battle takes hold).
+All melee combat takes place in the close range zone. Generally there is just one melee, with all characters in touch range of each other, although in some cases you may decide there are two separate melee groups (but feel free to merge them after a round as the chaos of battle takes hold).
 
 Generally creatures start in the close range zone, although sometimes in a open area you may allow them to start at range. A creature's first move may be to long range, representing them positioning away from the combat.
 
 Note that out of combat doesn't necessarily mean you are too far away to be affect by spells, but that you may be around the corner, or behind sufficient cover, that you can't be targeted.
-
-Zones address some common questions in pure theatre of the mind such as "how far away are they", "where am I" (in relation to the action), and "can I get to them and attack".
 
 ### Using miniatures
 
 Miniatures can be used to give a visual representation of range, using something like Ultimate Dungeon Terrain.
 
 There are three areas of play, a long range for each side, and a shared close range. Melee is indicated by moving the model bases together within the close zone. Out of combat characters are put to the side.
+
+### Using terrain
+
+Terrain can be incorporated using theatre of the mind. Each zone can be described with a specific feature, that can then be used.
+
+e.g. stacked crates in the enemy long range zone give them cover, while exposed lava veins in the close zone can be used to push creatures into.
 
 ## Range
 
@@ -56,6 +69,16 @@ Range within the close range zone, including to and from melee, is 25 ft (e.g. p
 Any character in melee may attack any other character in the same melee; combat is chaotic and dynamic.
 
 For those used to precise tactical positioning being unable to move in and hit with a reach weapon, or use a close range spell such as thunderwave, without immediately becoming engaged in melee, may be difficult to adjust to, especially if the character is built around a specific tactic. The system they are used to, with separate turn by turn movement, is however an abstraction of simultaneous activity; zoned combat is just a less precise abstraction that prioritises faster play.
+
+### Encounter distance
+
+Use the encounter distance tables, based on terrain, on p. 38 of the Dungeon Master's Guide.
+
+Up to 50 ft, start both groups at close range. At 55 - 100 ft, decide which group the close range focus will be on, and put the other group at long range. If more than 100 ft then put both groups at long range.
+
+Positioning may affect this, e.g. approaching an encampment the initial close range focus may be on the guards, with the characters at long range, with most enemies also at long range. If one of the characters is scouting ahead, they may start at close range as well, hopefully hidden.
+
+Indoor encounters usually start with both groups at close range, unless the room is huge. Moving to long range often means stepping back to the room you just came from, but remaining in the fight.
 
 ## Movement
 
@@ -78,7 +101,7 @@ Fleeing from melee requires: withdraw from melee (1 move, with opportunity attac
 
 If you are currently in melee and want to engage another enemy into the melee you would need to withdraw (1 move), then engage (1 move), a total of 2 standard moves to pull them into the engagement.
 
-## Speed
+### Speed
 
 Standard movement is based on rounding to the nearest 30 ft.
 
@@ -94,7 +117,7 @@ Dashing multiplies the amount, e.g. a character with 50 ft who dashes gets 4 sta
 
 Creatures with low or hampered speed may be required to dash to change zones.
 
-## Opportunity attacks
+### Opportunity attacks
 
 When you withdraw from melee, enemies get a number of opportunity attacks in proportion to the ratio of creatures in melee, rounded up.
 
@@ -103,6 +126,14 @@ e.g. If there are 3 friendlies in melee, and 4 enemies, then withdrawing would d
 Each creature is still limited to one reaction per round, and disengage works normally (your movement does not provoke opportunity attacks).
 
 If your side outnumbers the other, e.g. 4 friendlies vs 3 enemies, then only one opportunity attack is made.
+
+### Pushing
+
+Effects like pushing can also be used to move creatures out of melee as normal.
+
+Rather than move an enemy it can also be used to move the focus, keeping the enemy in melee but allowing a friendly to disengage -- effectively pushing the enemy away from the friendly.
+
+If there are many enemies then you can use similar rules to opportunity attacks, e.g. if there are 3 friendlies and 4 enemies, you would need to push 2 enemies to get an ally out of the melee.
 
 ## Area effects
 
@@ -132,7 +163,7 @@ For lines the number of targets affected is based on length and width:
 | 90 ft  | 4         | 8          |
 | 120 ft | 5         | 10         |
 
-Adjust for how bunched up or spread out the targets are, for their size (less large creatures fit in an area), available cover, or other factors.
+Adjust for how bunched up or spread out the targets are, for their size (less large creatures fit in an area), available cover, or other factors. e.g. add or subtract 1d3 or similar.
 
 ### Area effects into melee
 
@@ -142,15 +173,23 @@ E.g. A fireball could get 2 enemies in close range and 3 enemies in melee, but w
 
 If the spell can select targets, or the caster has a way to exclude targets, these abilities work normally. e.g. an invoker wizard could exclude the 2 friendly creatures.
 
-## Terrain
+## Examples
 
-Terrain can be incorporated using theatre of the mind. Each zone can be described with a specific feature, that can then be used.
+"I charge toward the guard and engage them" -- one move from long to close, then Dash to make a second move to engage; no attack is possible.
 
-e.g. stacked crates in the enemy long range zone give them cover, while exposed lava veins in the close zone can be used to push creatures into.
+"My monk also charges, but using their high speed they can still attack" -- a 10th level monk with 50 ft speed gets two standard moves, so they can both move to the close zone and engage, and still have their action available to attack, and bonus action to flurry.
+
+"Enemy reinforcements at long range shoot longbows at the wizard" -- a normal attack at range 100 ft with a long bow.
+
+"Their goblin allies only have short bows, so attack the wizard at disadvantage" -- normal shortbow range is only 80 ft, so the attacks are made with disadvantage.
+
+"The wizard moves closer and casts ray of frost at one of the goblins" -- the wizard needs to move into the close range zone, so that their ray of frost with 90 ft range can reach the goblins (at range 50 ft).
+
+(Back to the original fighter, now in the close range zone) "With the guard taken out by the monk, I charge one of the archers and engage them as well" -- charging towards the archers takes a standard move, but instead of moving the fighter to the enemy long range, it shifts the close zone focus to include one of the archers (moving them into the close range zone); once in the close range zone they can be engaged in melee with a Dash standard move.
 
 ## Long range combat
 
-To represent a long range battle, such as in an open outdoor field, you can use longer range zones:
+To represent a long range battle, such as in an open outdoor field, you can use longer range zones. This allows encounters to start at 200+ ft, such as in an open field, desert, or snow.
 
 | Your zone   | Long range (friendly) | Close range (friendly) | Melee  | Close range (enemy) | Long range (enemy) |
 | ----------- | --------------------- | ---------------------- | ------ | ------------------- | ------------------ |
@@ -158,11 +197,11 @@ To represent a long range battle, such as in an open outdoor field, you can use 
 | Close range | 100 ft                | Touch                  | 50 ft  | 50 ft               | 100 ft             |
 | Melee       | 100 ft                | 50 ft                  | Touch  | 50 ft               | 100 ft             |
 
-The amount of movement required is increased correspondingly:
+The amount of movement required is increased correspondingly, usually requiring both move and dash to change zones:
 
 | Movement                            | Cost             |
 | ----------------------------------- | ---------------- |
-| Out of combat to long range         | 2 standard moves |
+| Out of combat to long range         | 2 standard moves, or more |
 | Between long range and close range  | 2 standard moves |
 | Move the focus (at close range)     | 2 standard moves |
 | Engage another enemy in close range | 2 standard moves |
@@ -171,4 +210,5 @@ The amount of movement required is increased correspondingly:
 
 Longer ranges are advantageous for those with long range weapons and high movement speeds, that usually are not as beneficial withing more constrained areas.
 
-Using zoned combat allows long range battles to be fought that would be difficult with gridded combat.
+Using zoned combat allows long range battles to be fought that would require to much space to run with gridded combat.
+

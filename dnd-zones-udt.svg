@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1122.5197 793.7008"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="dnd-zones-udt.svg"
+   inkscape:export-filename="dnd-zones-udt.pdf"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.79374999"
+     inkscape:cx="562.51969"
+     inkscape:cy="310.55119"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="933"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path7-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path8-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Zone boundaries"
+     style="display:inline">
+    <circle
+       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="561.25989"
+       cy="396.8504"
+       r="510.23624"
+       inkscape:label="Outer" />
+    <circle
+       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:2.20472;stroke-dasharray:none;stroke-opacity:1"
+       id="path1-8"
+       cx="561.25983"
+       cy="396.8504"
+       r="264.56693"
+       inkscape:label="Inner" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Zone text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="561.35583"
+       y="172.28735"
+       id="text1-3"
+       inkscape:label="text - close"><tspan
+         sodipodi:role="line"
+         id="tspan1-7"
+         x="561.35583"
+         y="172.28735"
+         style="font-size:21.3333px">Close range</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="561.35583"
+       y="31.052114"
+       id="text1-4"
+       inkscape:label="text - long"><tspan
+         sodipodi:role="line"
+         id="tspan1-6"
+         x="561.35583"
+         y="31.052114"
+         style="font-size:21.3333px">Long range</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="561.41986"
+       y="508.548"
+       id="text1-3-5"
+       inkscape:label="text - close"><tspan
+         sodipodi:role="line"
+         id="tspan1-7-30"
+         x="561.41986"
+         y="508.548"
+         style="font-size:21.3333px">Melee</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="1030.8093"
+       y="767.65662"
+       id="text1-4-3"
+       inkscape:label="text - long"><tspan
+         sodipodi:role="line"
+         id="tspan1-6-7"
+         x="1030.8093"
+         y="767.65662"
+         style="font-size:21.3333px">Out of combat</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Moves"
+     style="display:none">
+    <path
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26772, 2.26772;stroke-dashoffset:0;marker-start:url(#ArrowWide);marker-end:url(#marker8)"
+       d="M 56.377955,134.80315 C 113.58485,88.209567 178.8951,116.00776 200.94488,136.06299"
+       id="path6"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="118.40797"
+       y="103.01497"
+       id="text5-6-9-6"><tspan
+         sodipodi:role="line"
+         x="118.40797"
+         y="103.01497"
+         id="tspan1-0-7">2 Moves</tspan></text>
+    <path
+       style="display:inline;opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26772, 2.26772;stroke-dashoffset:0;marker-start:url(#ArrowWide-4);marker-end:url(#marker8-4)"
+       d="m 332.45168,199.13176 c 57.2069,-46.59358 122.51715,-18.79539 144.56693,1.25984"
+       id="path6-3"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="397.47302"
+       y="166.41341"
+       id="text5-6-9-6-2"><tspan
+         sodipodi:role="line"
+         x="397.47302"
+         y="166.41341"
+         id="tspan1-0-7-0">1 Move</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="572.47351"
+       y="250.18883"
+       id="text5-6-9-6-2-5"><tspan
+         sodipodi:role="line"
+         x="572.47351"
+         y="250.18883"
+         id="tspan1-0-7-0-2">Engage: 1 Move</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="431.2547"
+       y="502.55621"
+       id="text5-6-9-6-2-5-4"><tspan
+         sodipodi:role="line"
+         x="431.2547"
+         y="502.55621"
+         id="tspan1-0-7-0-2-8">Withdraw: 1 Move</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="483.79346"
+       y="330.63425"
+       id="text5-6-9-6-2-5-0"><tspan
+         sodipodi:role="line"
+         x="483.79346"
+         y="330.63425"
+         id="tspan1-0-7-0-2-1">Join: ½ Move</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="737.70349"
+       y="544.06018"
+       id="text5-6-9-6-2-5-6"><tspan
+         sodipodi:role="line"
+         x="737.70349"
+         y="544.06018"
+         id="tspan1-0-7-0-2-4">Focus: 1 Move</tspan></text>
+    <path
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26771, 2.26771;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="M 811.96852,566.92915 636.22049,541.10238"
+       id="path12" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Ranges"
+     style="display:none">
+    <path
+       style="display:inline;fill:#ffffff;stroke:#1a1a1a;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#marker5);marker-end:url(#Stop)"
+       d="M 240,640.76977 H 561.25985"
+       id="path4-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="557.66785"
+       y="773.69733"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="557.66785"
+         y="773.69733">Range 100 ft</tspan></text>
+    <path
+       style="display:inline;fill:#ffffff;stroke:#1a1a1a;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#marker5);marker-end:url(#Stop)"
+       d="M 240,757.21673 H 882.5197"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="388.54263"
+       y="657.18207"
+       id="text5-6"><tspan
+         sodipodi:role="line"
+         x="388.54263"
+         y="657.18207"
+         id="tspan1">Range 50 ft</tspan></text>
+    <path
+       style="display:inline;fill:#ffffff;stroke:#1a1a1a;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#marker5);marker-end:url(#marker5)"
+       d="M 476.75475,593.47437 H 637.38467"
+       id="path4-3-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="560.85339"
+       y="609.05896"
+       id="text5-6-9"><tspan
+         sodipodi:role="line"
+         x="560.85339"
+         y="609.05896"
+         id="tspan1-0">Range 25 ft</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Range Touch"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="149.81927"
+       y="387.33057"
+       id="text5-6-9-1"><tspan
+         sodipodi:role="line"
+         x="149.81927"
+         y="387.33057"
+         id="tspan1-0-1">Range Touch</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Sample creatures"
+     style="display:none">
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9"
+       cx="380.27655"
+       cy="328.47754"
+       r="37.795277" />
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-5"
+       cx="646.86139"
+       cy="429.7254"
+       r="75.590553" />
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-5-6"
+       cx="904.30762"
+       cy="576.68274"
+       r="75.590553" />
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-2"
+       cx="579.05695"
+       cy="338.65854"
+       r="37.795277" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9-9"
+       cx="534.94672"
+       cy="402.21066"
+       r="37.795277" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9-1"
+       cx="417.31357"
+       cy="260.46982"
+       r="37.795277" />
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-2-3"
+       cx="710.30524"
+       cy="262.6026"
+       r="37.795277" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9-6"
+       cx="160.00676"
+       cy="255.28821"
+       r="37.795277" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9-1-1"
+       cx="138.73291"
+       cy="330.92245"
+       r="37.795277" />
+    <circle
+       style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-5-9-1-1-0"
+       cx="156.55728"
+       cy="516.97437"
+       r="37.795277" />
+    <circle
+       style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2-8-2-3-1"
+       cx="1054.1497"
+       cy="84.031502"
+       r="37.795277" />
+    <path
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26772, 2.26772;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="m 464.34763,257.45368 h 195.09466 v 0"
+       id="path9" />
+    <path
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26771, 2.26771;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="m 427.24501,336.18795 106.14737,9.90464"
+       id="path10" />
+    <path
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26771, 2.26771;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="m 497.32285,431.49608 -95.43307,52.28346"
+       id="path11" />
+  </g>
+</svg>
