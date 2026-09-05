@@ -16,9 +16,9 @@ This abstraction sacrifices some tactical precision. Exact adjacency, reach posi
 
 In return, combat is faster and easier to run while still answering the common theatre-of-the-mind questions: "How far away are they?", "Where am I relative to the fight?", and "Can I reach them and attack?"
 
-_Figure: Ultimate Dungeon Terrain_
+_Figure: Zoned Combat - Ultimate Dungeon Terrain_
 
-![Ultimate Dungeon Terrain Zones](dnd-zones.png)
+![Ultimate Dungeon Terrain Zones](dnd-zones-udt.png)
 
 Printable sheet: [Zoned Combat - Ultimate Dungeon Terrain](dnd-zones-udt.pdf)
 
@@ -62,6 +62,14 @@ Use three main areas: friendly long range, shared close range, and enemy long ra
 Terrain can be handled through theatre of the mind by giving each zone relevant features.
 
 For example, stacked crates in the enemy long-range zone might provide cover, while exposed lava veins in close range could be used as a hazard for pushing creatures into.
+
+### Linear zones
+
+If you don't have ultimate dungeon terrain, you just just use five clear rectangular zones.
+
+_Figure: Zoned Combat - Summary_
+
+![Zoned Combat - Summary](dnd-zones-rectangle.png)
 
 ## Range
 
@@ -203,3 +211,15 @@ Movement costs are doubled accordingly:
 | Withdraw from melee to close range | 2 standard moves                         |
 
 Extended-range combat gives long-range weapons and high movement speeds more room to matter, and allows battles that would require impractical amounts of space on a grid.
+
+## Variant: Multiple zones
+
+You can also have multiple zones on each side, each 50 ft apart in range, and one standard move between them.
+
+Melee combat can be initiated in any of the inner zones, although the focus move should still be used to bring creatures from the outer most zones.
+
+This allows a wider range of ranges to be used, at the risk of some complexity in handling multiple zones of action.
+
+_Figure: Zoned Combat - Multiple Zones_
+
+![Zoned Combat - Multiple Zones](dnd-zones-multiple.png)

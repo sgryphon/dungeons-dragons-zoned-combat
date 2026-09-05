@@ -8,10 +8,10 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="dnd-zones-udt.svg"
-   inkscape:export-filename="dnd-zones-udt.png"
-   inkscape:export-xdpi="36"
-   inkscape:export-ydpi="36"
+   sodipodi:docname="dnd-zones-rectangle.svg"
+   inkscape:export-filename="dnd-zones-rectangle.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,15 +26,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.79374999"
-     inkscape:cx="562.51969"
-     inkscape:cy="313.07087"
+     inkscape:zoom="0.561266"
+     inkscape:cx="446.31244"
+     inkscape:cy="248.54525"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#ffffffff" />
   <defs
      id="defs1">
@@ -157,23 +157,24 @@
   </defs>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Zone boundaries"
-     style="display:inline">
-    <circle
-       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:1"
-       id="path1"
-       cx="561.25989"
-       cy="396.8504"
-       r="510.23624"
-       inkscape:label="Outer" />
-    <circle
-       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:2.20472;stroke-dasharray:none;stroke-opacity:1"
-       id="path1-8"
-       cx="561.25983"
-       cy="396.8504"
-       r="264.56693"
-       inkscape:label="Inner" />
+     id="layer1"
+     inkscape:label="Zone boundaries - rectangle">
+    <path
+       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:1.80386;stroke-dasharray:none"
+       d="M 136.06299,0 V 793.7008"
+       id="path2" />
+    <path
+       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:1.80386;stroke-dasharray:none"
+       d="M 381.73229,0 V 793.7008"
+       id="path2-8" />
+    <path
+       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:1.80386;stroke-dasharray:none"
+       d="M 740.78741,0 V 793.7008"
+       id="path2-8-6" />
+    <path
+       style="opacity:0.7;fill:none;stroke:#000000;stroke-width:1.80386;stroke-dasharray:none"
+       d="M 986.45671,0 V 793.7008"
+       id="path2-1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -183,57 +184,92 @@
     <text
        xml:space="preserve"
        style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="561.35583"
-       y="172.28735"
+       x="558.83618"
+       y="44.464355"
        id="text1-3"
        inkscape:label="text - close"><tspan
          sodipodi:role="line"
          id="tspan1-7"
-         x="561.35583"
-         y="172.28735"
+         x="558.83618"
+         y="44.464355"
          style="font-size:21.3333px">Close range</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="561.35583"
-       y="31.052114"
+       x="839.78107"
+       y="43.739021"
        id="text1-4"
        inkscape:label="text - long"><tspan
          sodipodi:role="line"
          id="tspan1-6"
-         x="561.35583"
-         y="31.052114"
+         x="839.78107"
+         y="43.739021"
          style="font-size:21.3333px">Long range</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="561.41986"
-       y="508.548"
+       x="555.12067"
+       y="606.81573"
        id="text1-3-5"
        inkscape:label="text - close"><tspan
          sodipodi:role="line"
          id="tspan1-7-30"
-         x="561.41986"
-         y="508.548"
+         x="555.12067"
+         y="606.81573"
          style="font-size:21.3333px">Melee</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="1030.8093"
-       y="767.65662"
+       x="1049.7069"
+       y="44.507023"
        id="text1-4-3"
        inkscape:label="text - long"><tspan
          sodipodi:role="line"
          id="tspan1-6-7"
-         x="1030.8093"
-         y="767.65662"
-         style="font-size:21.3333px">Out of combat</tspan></text>
+         x="1049.7069"
+         y="44.507023"
+         style="font-size:21.3333px">Out of</tspan><tspan
+         sodipodi:role="line"
+         x="1049.7069"
+         y="71.173645"
+         style="font-size:21.3333px"
+         id="tspan2">combat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#808080;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="267.44501"
+       y="43.739021"
+       id="text1-4-6"
+       inkscape:label="text - long"><tspan
+         sodipodi:role="line"
+         id="tspan1-6-6"
+         x="267.44501"
+         y="43.739021"
+         style="font-size:21.3333px">Long range</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#808080;stroke:none;stroke-width:3.77949;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       x="71.928513"
+       y="44.507721"
+       id="text1-4-3-7"
+       inkscape:label="text - long"
+       transform="scale(0.99998818,1.0000118)"><tspan
+         sodipodi:role="line"
+         id="tspan1-6-7-4"
+         x="71.928513"
+         y="44.507721"
+         style="font-size:21.333px;stroke-width:3.77949">Out of</tspan><tspan
+         sodipodi:role="line"
+         x="71.928513"
+         y="71.173965"
+         style="font-size:21.333px;stroke-width:3.77949"
+         id="tspan2-1">combat</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Moves"
-     style="display:none">
+     style="display:inline">
     <path
        style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26772, 2.26772;stroke-dashoffset:0;marker-start:url(#ArrowWide);marker-end:url(#marker8)"
        d="M 56.377955,134.80315 C 113.58485,88.209567 178.8951,116.00776 200.94488,136.06299"
@@ -251,72 +287,72 @@
          id="tspan1-0-7">2 Moves</tspan></text>
     <path
        style="display:inline;opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26772, 2.26772;stroke-dashoffset:0;marker-start:url(#ArrowWide-4);marker-end:url(#marker8-4)"
-       d="m 332.45168,199.13176 c 57.2069,-46.59358 122.51715,-18.79539 144.56693,1.25984"
+       d="m 311.03436,137.39947 c 57.2069,-46.593575 122.51715,-18.79539 144.56693,1.25984"
        id="path6-3"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="397.47302"
-       y="166.41341"
+       x="376.05569"
+       y="104.68112"
        id="text5-6-9-6-2"><tspan
          sodipodi:role="line"
-         x="397.47302"
-         y="166.41341"
+         x="376.05569"
+         y="104.68112"
          id="tspan1-0-7-0">1 Move</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="572.47351"
-       y="250.18883"
+       x="562.39478"
+       y="199.79512"
        id="text5-6-9-6-2-5"><tspan
          sodipodi:role="line"
-         x="572.47351"
-         y="250.18883"
+         x="562.39478"
+         y="199.79512"
          id="tspan1-0-7-0-2">Engage: 1 Move</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="431.2547"
-       y="502.55621"
+       x="438.81375"
+       y="564.28851"
        id="text5-6-9-6-2-5-4"><tspan
          sodipodi:role="line"
-         x="431.2547"
-         y="502.55621"
+         x="438.81375"
+         y="564.28851"
          id="tspan1-0-7-0-2-8">Withdraw: 1 Move</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="483.79346"
-       y="330.63425"
+       x="558.12415"
+       y="320.55551"
        id="text5-6-9-6-2-5-0"><tspan
          sodipodi:role="line"
-         x="483.79346"
-         y="330.63425"
+         x="558.12415"
+         y="320.55551"
          id="tspan1-0-7-0-2-1">Join: ½ Move</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="737.70349"
-       y="544.06018"
+       x="691.08929"
+       y="604.53265"
        id="text5-6-9-6-2-5-6"><tspan
          sodipodi:role="line"
-         x="737.70349"
-         y="544.06018"
+         x="691.08929"
+         y="604.53265"
          id="tspan1-0-7-0-2-4">Focus: 1 Move</tspan></text>
     <path
        style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26771, 2.26771;stroke-dashoffset:0;marker-end:url(#marker8)"
-       d="M 811.96852,566.92915 636.22049,541.10238"
+       d="M 788.03151,634.70868 612.28348,608.88191"
        id="path12" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Ranges"
-     style="display:none">
+     style="display:inline">
     <path
        style="display:inline;fill:#ffffff;stroke:#1a1a1a;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#marker5);marker-end:url(#Stop)"
-       d="M 240,640.76977 H 561.25985"
+       d="M 240,710.76977 H 561.25985"
        id="path4-3" />
     <text
        xml:space="preserve"
@@ -336,125 +372,125 @@
        xml:space="preserve"
        style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        x="388.54263"
-       y="657.18207"
+       y="727.18207"
        id="text5-6"><tspan
          sodipodi:role="line"
          x="388.54263"
-         y="657.18207"
+         y="727.18207"
          id="tspan1">Range 50 ft</tspan></text>
     <path
        style="display:inline;fill:#ffffff;stroke:#1a1a1a;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#marker5);marker-end:url(#marker5)"
-       d="M 476.75475,593.47437 H 637.38467"
+       d="M 476.75475,663.47437 H 637.38467"
        id="path4-3-7" />
     <text
        xml:space="preserve"
        style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        x="560.85339"
-       y="609.05896"
+       y="679.05896"
        id="text5-6-9"><tspan
          sodipodi:role="line"
          x="560.85339"
-         y="609.05896"
+         y="679.05896"
          id="tspan1-0">Range 25 ft</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Range Touch"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:13.3333px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;display:inline;fill:#1a1a1a;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="149.81927"
-       y="387.33057"
+       x="211.55156"
+       y="369.69278"
        id="text5-6-9-1"><tspan
          sodipodi:role="line"
-         x="149.81927"
-         y="387.33057"
+         x="211.55156"
+         y="369.69278"
          id="tspan1-0-1">Range Touch</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Sample creatures"
-     style="display:none">
+     style="display:inline">
     <circle
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-5-9"
-       cx="380.27655"
-       cy="328.47754"
+       cx="446.41827"
+       cy="287.53265"
        r="37.795277" />
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-8-5"
-       cx="646.86139"
-       cy="429.7254"
+       cx="612.84564"
+       cy="494.70178"
        r="75.590553" />
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-8-5-6"
-       cx="904.30762"
-       cy="576.68274"
+       cx="877.85095"
+       cy="639.42291"
        r="75.590553" />
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-8-2"
-       cx="579.05695"
-       cy="338.65854"
+       cx="545.0412"
+       cy="403.63492"
        r="37.795277" />
     <circle
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-5-9-9"
-       cx="534.94672"
-       cy="402.21066"
+       cx="500.93097"
+       cy="467.18704"
        r="37.795277" />
     <circle
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-5-9-1"
-       cx="417.31357"
-       cy="260.46982"
+       cx="460.77814"
+       cy="213.22571"
        r="37.795277" />
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-8-2-3"
-       cx="710.30524"
-       cy="262.6026"
+       cx="673.13989"
+       cy="210.31912"
        r="37.795277" />
     <circle
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-5-9-6"
-       cx="160.00676"
-       cy="255.28821"
+       cx="221.73904"
+       cy="237.65041"
        r="37.795277" />
     <circle
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-5-9-1-1"
-       cx="138.73291"
-       cy="330.92245"
+       cx="200.46519"
+       cy="313.28467"
        r="37.795277" />
     <circle
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-5-9-1-1-0"
-       cx="156.55728"
-       cy="516.97437"
+       cx="195.6124"
+       cy="533.35229"
        r="37.795277" />
     <circle
        style="fill:#999999;fill-opacity:1;stroke:#1a1a1a;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="path2-8-2-3-1"
-       cx="1054.1497"
-       cy="84.031502"
+       cx="1051.63"
+       cy="162.14174"
        r="37.795277" />
     <path
-       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26772, 2.26772;stroke-dashoffset:0;marker-end:url(#marker8)"
-       d="m 464.34763,257.45368 h 195.09466 v 0"
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26773, 2.26773;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="m 509.07204,208.31982 h 118.24427 v 0"
        id="path9" />
     <path
-       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26771, 2.26771;stroke-dashoffset:0;marker-end:url(#marker8)"
-       d="m 427.24501,336.18795 106.14737,9.90464"
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75590552;stroke-dasharray:2.26770395,2.26770395;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="m 490.23713,299.65252 51.97414,51.47944"
        id="path10" />
     <path
-       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:2.26771, 2.26771;stroke-dashoffset:0;marker-end:url(#marker8)"
-       d="m 497.32285,431.49608 -95.43307,52.28346"
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75590552;stroke-dasharray:2.26772022,2.26772022;stroke-dashoffset:0;marker-end:url(#marker8)"
+       d="m 470.86616,507.08663 -41.25984,38.42519"
        id="path11" />
   </g>
 </svg>
