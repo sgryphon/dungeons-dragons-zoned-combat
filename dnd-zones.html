@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sly's Rules for Zoned Combat</title>
+<style>
+  :root {
+    --ink: #111;
+    --muted: #555;
+    --rule: #999;
+    --shade: #f2f2f2;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: var(--ink);
+    background: white;
+    font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.28;
+  }
+
+  body {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 12mm 12mm 14mm;
+  }
+
+  main {
+    column-count: 2;
+    column-gap: 9mm;
+    column-rule: 0.35pt solid #bbb;
+  }
+
+  h1 {
+    column-span: all;
+    margin: 0 0 3mm;
+    padding-bottom: 2mm;
+    border-bottom: 1.2pt solid #222;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20pt;
+    line-height: 1.05;
+  }
+
+  h1 + p {
+    column-span: all;
+    margin-top: 0;
+    margin-bottom: 5mm;
+    color: var(--muted);
+    font-size: 10pt;
+  }
+
+  h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h2 {
+    margin: 4.5mm 0 1.4mm;
+    padding-bottom: 0.7mm;
+    border-bottom: 0.6pt solid #777;
+    font-size: 13.5pt;
+  }
+
+  h3 {
+    margin: 3.5mm 0 1.2mm;
+    font-size: 11pt;
+  }
+
+  p {
+    margin: 0 0 2.3mm;
+    orphans: 3;
+    widows: 3;
+  }
+
+  ul {
+    margin: 0 0 2.5mm 4.5mm;
+    padding-left: 3.5mm;
+  }
+
+  li {
+    margin: 0 0 0.8mm;
+  }
+
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5pt;
+    text-underline-offset: 1pt;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 85mm;
+    margin: 2mm auto 3mm;
+    object-fit: contain;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5mm 0 3mm;
+    font-size: 8.1pt;
+    line-height: 1.2;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  th, td {
+    border: 0.45pt solid #888;
+    padding: 1.1mm 1.2mm;
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--shade);
+    font-weight: 700;
+    text-align: left;
+  }
+
+  tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.92em;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 10mm 10mm 12mm;
+  }
+
+  @media print {
+    html, body {
+      width: auto;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      column-count: 2;
+      column-gap: 8mm;
+      column-rule: 0.3pt solid #bbb;
+    }
+
+    h1, h2, h3, table, img {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    body {
+      max-width: 900px;
+      padding: 20px;
+    }
+    main {
+      column-count: 1;
+      column-rule: none;
+    }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Sly's Rules for Zoned Combat</h1>
+<p>For Dungeons &amp; Dragons, 5th edition.</p>
+<h2>Introduction</h2>
+<p>Zoned combat sits between gridded combat and pure theatre of the mind. It keeps meaningful range, movement, engagement, and area effects, but replaces exact positioning with abstract zones.</p>
+<p>Ranges are simplified to Touch, 25 ft, 50 ft, and 100 ft. Similar ranges are treated the same: a heavy crossbow and longbow both fall into the 100 ft category, while a 10 ft reach weapon is treated the same as other melee weapons at Touch range.</p>
+<p>Movement is also abstract. Changing range, engaging an enemy, or withdrawing from melee normally costs one standard move. A typical creature gets one standard move, while faster creatures may get additional moves.</p>
+<p>The close range zone represents the current focus of the fight rather than a fixed area. As characters reposition, that focus can shift. Melee takes place within close range, with creatures in the same melee treated as able to reach one another.</p>
+<p>This abstraction sacrifices some tactical precision. Exact adjacency, reach positioning, and carefully placing an area effect to catch particular enemies while avoiding nearby allies are generally not tracked.</p>
+<p>In return, combat is faster and easier to run while still answering the common theatre-of-the-mind questions: "How far away are they?", "Where am I relative to the fight?", and "Can I reach them and attack?"</p>
+<p><em>Figure: Ultimate Dungeon Terrain</em></p>
+<p><img src="dnd-zones.png" alt="Ultimate Dungeon Terrain Zones"></p>
+<p>Printable sheet: <a href="dnd-zones-udt.pdf">Zoned Combat - Ultimate Dungeon Terrain</a></p>
+<h2>Zones</h2>
+<p>Combat uses four abstract positions:</p>
+<ul><li><strong>Out of combat</strong>, outside the active fight.</li><li><strong>Long range</strong>, far from the current action, with a separate long-range area for each side.</li><li><strong>Close range</strong>, near the current focus of the fight.</li><li><strong>Melee</strong>, engaged in close combat, within the close range zone.</li></ul>
+<p>The close range zone is not a fixed area. It represents the current focus of the fight and shifts as characters reposition. Moving towards a distant enemy may therefore bring that enemy into close range rather than moving your character into their long-range zone.</p>
+<p>All melee takes place within close range. Usually there is one melee, with everyone in it treated as within Touch range of everyone else. Separate melees can be used when the fiction clearly calls for them.</p>
+<p>Melee represents a shifting area of combat, not creatures standing still 5 ft apart. Combatants are assumed to be moving, circling, and closing within an area roughly 20 ft across. Entering that area — for example to touch an ally or use a very short-range spell — means entering the melee.</p>
+<p>Out of combat does not necessarily mean too far away. A creature may instead be around a corner, behind sufficient cover, or otherwise unable to take part in the current fight.</p>
+<h3>Encounter distance</h3>
+<p>Use the encounter distance tables on p. 38 of the <em>Dungeon Master's Guide</em>.</p>
+<ul><li>Up to 50 ft: both groups start at close range.</li><li>55–100 ft: one group starts at close range and the other at long range.</li><li>More than 100 ft: both groups start at long range.</li></ul>
+<p>Adjust for the situation. When approaching an encampment, for example, the guards might be at close range while the party and other enemies are at long range. A scout may already be at close range, perhaps hidden.</p>
+<p>Indoor encounters usually begin with both groups at close range unless the space is unusually large. Moving to long range may mean falling back into an adjoining room while remaining in the fight.</p>
+<h3>Using miniatures</h3>
+<p>Miniatures can be used to show the abstract positions, using something like Ultimate Dungeon Terrain.</p>
+<p>Use three main areas: friendly long range, shared close range, and enemy long range. Put bases together within close range to show melee. Place out-of-combat creatures to the side.</p>
+<h3>Using terrain</h3>
+<p>Terrain can be handled through theatre of the mind by giving each zone relevant features.</p>
+<p>For example, stacked crates in the enemy long-range zone might provide cover, while exposed lava veins in close range could be used as a hazard for pushing creatures into.</p>
+<h2>Range</h2>
+<p>Weapons, spells, and other effects use four abstract ranges: <strong>Touch, 25 ft, 50 ft, and 100 ft</strong>.</p>
+<table><thead><tr><th>Your zone</th><th>Long range (friendly)</th><th>Close range (friendly)</th><th>Melee</th><th>Close range (enemy)</th><th>Long range (enemy)</th></tr></thead><tbody><tr><td>Long range</td><td>Touch</td><td>50 ft</td><td>50 ft</td><td>50 ft</td><td>100 ft</td></tr><tr><td>Close range</td><td>50 ft</td><td>Touch</td><td>25 ft</td><td>25 ft</td><td>50 ft</td></tr><tr><td>Melee</td><td>50 ft</td><td>25 ft</td><td>Touch</td><td>25 ft</td><td>50 ft</td></tr></tbody></table>
+<p><strong>Touch</strong> means readily reachable. An unengaged ally in the same zone is within Touch range. To touch an enemy, or someone already in melee, you must enter that melee.</p>
+<p><strong>25 ft</strong> means nearby, but not readily reachable. This includes enemies in close range and creatures in melee when you are outside it. Examples include <em>poison spray</em>, normal range for a javelin, and long range for a dagger.</p>
+<p><strong>50 ft</strong> covers effects such as <em>ray of frost</em> and <em>chromatic orb</em>, normal range for a shortbow, and long range for a spear.</p>
+<p><strong>100 ft</strong> covers effects such as <em>fire bolt</em>, normal range for a longbow, and long range for a shortbow.</p>
+<p>Any creature in a melee may attack any other creature in the same melee. Reach and exact positioning within melee are not tracked.</p>
+<h2>Movement</h2>
+<p>A standard move represents about 30 ft of movement. You normally get one standard move per turn; Dash gives you another.</p>
+<table><thead><tr><th>Movement</th><th>Cost</th><th>Notes</th></tr></thead><tbody><tr><td>Out of combat to long range</td><td>2 standard moves</td><td>or vice versa</td></tr><tr><td>Between long range and close range</td><td>1 standard move</td><td>or vice versa</td></tr><tr><td>Move the focus</td><td>1 standard move</td><td>shifts an enemy from long range to close range</td></tr><tr><td>Engage an enemy in close range</td><td>1 standard move</td><td>moves both of you into melee</td></tr><tr><td>Join an existing melee</td><td>1 standard move</td><td>possible with only 1/2 a standard move</td></tr><tr><td>Withdraw from melee to close range</td><td>1 standard move</td><td>may trigger an opportunity attack</td></tr></tbody></table>
+<p>To engage an enemy at long range, first move the focus to bring them into close range, then engage them.</p>
+<p>For example, engaging an enemy at long range from out of combat takes 5 standard moves: 2 to reach long range, 1 to reach close range, 1 to charge the enemy (shifting the focus and bringing them into close range), and 1 to engage.</p>
+<p>To engage a different enemy while already in melee, first withdraw (provoking opportunity attacks as normal), then engage the new target: 2 standard moves.</p>
+<p>Fleeing from melee takes 4 standard moves: 1 to withdraw, 1 to reach long range, and 2 to leave combat.</p>
+<h3>Speed</h3>
+<p>Standard moves are based on your available speed, rounded to the nearest 30 ft.</p>
+<table><thead><tr><th>Speed</th><th>Standard moves</th></tr></thead><tbody><tr><td>0 ft</td><td>none</td></tr><tr><td>5–15 ft</td><td>1/2 standard move</td></tr><tr><td>20–45 ft</td><td>1 standard move</td></tr><tr><td>50–75 ft</td><td>2 standard moves</td></tr><tr><td>80+ ft</td><td>3 standard moves</td></tr></tbody></table>
+<p>This also applies when only part of your movement remains. For example, after standing from prone, a creature with 30 ft speed has 15 ft left (1/2 a standard move).</p>
+<p>Dashing doubles your standard moves. Creatures with reduced speed may need to Dash to change zones.</p>
+<h3>Opportunity attacks</h3>
+<p>When you withdraw from melee, the number of opportunity attacks depends on how badly your side is outnumbered.</p>
+<table><thead><tr><th>Enemies compared to friendlies</th><th>Opportunity attacks</th></tr></thead><tbody><tr><td>Same number or fewer</td><td>1</td></tr><tr><td>Up to twice as many</td><td>2</td></tr><tr><td>Up to three times as many</td><td>3</td></tr><tr><td>And so on</td><td>+1 per multiple</td></tr></tbody></table>
+<p>For example, 3 friendlies against 4 enemies gives 2 opportunity attacks; against 7 enemies, 3.</p>
+<p>Each creature can still make only one opportunity attack per round, and Disengage prevents them as normal.</p>
+<h3>Forced movement</h3>
+<p>Forced movement can move a creature out of melee as normal.</p>
+<p>It can also shift the melee instead: rather than removing the target, treat the movement as pushing it away from an ally, allowing that ally to leave the melee.</p>
+<p>If several enemies are involved, use the same ratio as opportunity attacks to determine how many must be moved. For example, with 3 friendlies and 4 enemies, moving 2 enemies is enough to free one ally.</p>
+<h2>Area effects</h2>
+<p>Area effects normally affect a single zone: long range, close range, or melee. Effects <strong>40 ft across or more</strong> can affect both close range and melee; for circular effects, use diameter rather than radius.</p>
+<p>Long lines can cross multiple zones. For example, <em>lightning bolt</em> might affect 1 creature in melee, 2 in close range, and 1 at long range, rather than 4 creatures in the same melee.</p>
+<p>The following values are based on the <em>Dungeon Master's Guide</em> guidelines for <strong>Adjudicating Areas of Effect</strong> (p. 83), reorganised here by effect size for easier lookup.</p>
+<table><thead><tr><th>Size</th><th>Cone</th><th>Cube</th><th>Radius</th></tr></thead><tbody><tr><td>5 ft</td><td>1</td><td>1</td><td>1</td></tr><tr><td>10 ft</td><td>1</td><td>1</td><td>3</td></tr><tr><td>15 ft</td><td>2</td><td>2</td><td>6</td></tr><tr><td>20 ft</td><td>2</td><td>4</td><td>10</td></tr><tr><td>25 ft</td><td>3</td><td>6</td><td>16</td></tr><tr><td>30 ft</td><td>5</td><td>8</td><td>20</td></tr><tr><td>45 ft</td><td>9</td><td>16</td><td></td></tr><tr><td>60 ft</td><td>16</td><td>20</td><td></td></tr></tbody></table>
+<p>For lines, use length and width:</p>
+<table><thead><tr><th>Length</th><th>5 ft wide</th><th>10 ft wide</th></tr></thead><tbody><tr><td>30 ft</td><td>2</td><td>3</td></tr><tr><td>60 ft</td><td>3</td><td>5</td></tr><tr><td>90 ft</td><td>4</td><td>8</td></tr><tr><td>120 ft</td><td>5</td><td>10</td></tr></tbody></table>
+<p>Treat these as typical maximums. Adjust for how tightly creatures are grouped, their size, cover, and similar factors; adding or subtracting 1d3 targets is usually enough.</p>
+<h3>Area effects into melee</h3>
+<p>For each enemy beyond the first affected in melee, one friendly in that melee is also affected. The GM may adjust this if one side greatly outnumbers the other.</p>
+<p>For example, a <em>fireball</em> could affect 2 enemies in close range and 3 enemies in melee, but would also catch 2 friendlies in that melee.</p>
+<p>Effects that select targets or exclude creatures work normally.</p>
+<h2>Variant: Extended-range combat</h2>
+<p>For battles in open terrain, you can double the normal zone ranges, allowing encounters to begin at 200 ft or more.</p>
+<table><thead><tr><th>Your zone</th><th>Long range (friendly)</th><th>Close range (friendly)</th><th>Melee</th><th>Close range (enemy)</th><th>Long range (enemy)</th></tr></thead><tbody><tr><td>Long range</td><td>Touch</td><td>100 ft</td><td>100 ft</td><td>100 ft</td><td>200 ft</td></tr><tr><td>Close range</td><td>100 ft</td><td>Touch</td><td>50 ft</td><td>50 ft</td><td>100 ft</td></tr><tr><td>Melee</td><td>100 ft</td><td>50 ft</td><td>Touch</td><td>50 ft</td><td>100 ft</td></tr></tbody></table>
+<p>Movement costs are doubled accordingly:</p>
+<table><thead><tr><th>Movement</th><th>Cost</th></tr></thead><tbody><tr><td>Out of combat to long range</td><td>2 standard moves or more, as appropriate</td></tr><tr><td>Between long range and close range</td><td>2 standard moves</td></tr><tr><td>Move the focus</td><td>2 standard moves</td></tr><tr><td>Engage an enemy in close range</td><td>2 standard moves</td></tr><tr><td>Join an existing melee</td><td>1 standard move</td></tr><tr><td>Withdraw from melee to close range</td><td>2 standard moves</td></tr></tbody></table>
+<p>Extended-range combat gives long-range weapons and high movement speeds more room to matter, and allows battles that would require impractical amounts of space on a grid.</p>
+</main>
+</body>
+</html>
