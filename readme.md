@@ -30,9 +30,10 @@ Creature speed, Dash, opportunity attacks, forced movement, and area effects are
 
 ## Rules and downloads
 
-- [Read the Rules for Zoned Combat](dnd-zones.html)
-- [Download Rules for Zoned Combat (PDF)](Rules%20for%20Zoned%20Combat.pdf)
+- [Read the Rules for Zoned Combat (PDF)](Rules%20for%20Zoned%20Combat.pdf)
 - [Download the Ultimate Dungeon Terrain template](dnd-zones-udt.pdf)
+
+Source for generating the PDF is in [dnd-zones.html](dnd-zones.html)
 
 ## Licence
 
