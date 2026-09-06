@@ -126,7 +126,10 @@
 
   h3 {
     margin: 3.5mm 0 1.2mm;
-    font-size: 11pt;
+    font-family: "Liberation Sans", "Noto Sans", "DejaVu Sans", sans-serif;
+    font-size: 10.5pt;
+    font-weight: 700;
+    line-height: 1.2;
   }
 
   p {
@@ -229,6 +232,10 @@
     page-break-inside: avoid;
   }
 
+  .print-only {
+    display: none;
+  }
+
   footer p { margin: 0; }
 
   footer .cc-logo img {
@@ -268,6 +275,15 @@
 
     .screen-only {
       display: none !important;
+    }
+
+    .print-only {
+      display: grid !important;
+    }
+
+    footer.print-only {
+      margin-top: 4mm;
+      margin-bottom: 0;
     }
   }
 
@@ -323,6 +339,20 @@
 <p><strong>50 ft</strong> covers effects such as <em>ray of frost</em> and <em>chromatic orb</em>, normal range for a shortbow, and long range for a spear.</p>
 <p><strong>100 ft</strong> covers effects such as <em>fire bolt</em>, normal range for a longbow, and long range for a shortbow.</p>
 <p>Any creature in a melee may attack any other creature in the same melee. Reach and exact positioning within melee are not tracked.</p>
+<footer class="print-only">
+  <p class="cc-logo">
+    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License"
+           src="https://i.creativecommons.org/l/by/4.0/88x31.png">
+    </a>
+  </p>
+  <p>
+    © Sly Gryphon, version 2026.09.06. This work is licensed under a
+    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    Source and latest version:
+    <a href="https://github.com/sgryphon/dungeons-dragons-zoned-combat">https://github.com/sgryphon/dungeons-dragons-zoned-combat</a>
+  </p>
+</footer>
 <h2 class="movement-start">Movement</h2>
 <p>A standard move represents about 30 ft of movement. You normally get one standard move per turn; Dash gives you another.</p>
 <table><thead><tr><th>Movement</th><th>Cost</th><th>Notes</th></tr></thead><tbody><tr><td>Out of combat to long range</td><td>2 standard moves</td><td>or vice versa</td></tr><tr><td>Between long range and close range</td><td>1 standard move</td><td>or vice versa</td></tr><tr><td>Move the focus</td><td>1 standard move</td><td>shifts an enemy from long range to close range</td></tr><tr><td>Engage an enemy in close range</td><td>1 standard move</td><td>moves both of you into melee</td></tr><tr><td>Join an existing melee</td><td>1 standard move</td><td>possible with only 1/2 a standard move</td></tr><tr><td>Withdraw from melee to close range</td><td>1 standard move</td><td>may trigger an opportunity attack</td></tr></tbody></table>
@@ -363,7 +393,7 @@
 <p>Movement costs are also doubled: moving between long and close range, moving the focus, engaging an enemy, and withdrawing from melee each cost <strong>2 standard moves</strong>. Joining an existing melee costs <strong>1 standard move</strong>. Moving between out of combat and long range costs <strong>2 standard moves or more, as appropriate</strong>.</p>
 <p>This gives long-range weapons and high movement speeds more room to matter, and allows battles that would require impractical amounts of space on a grid.</p>
 </aside>
-<footer>
+<footer class="screen-only">
   <p class="cc-logo">
     <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
       <img alt="Creative Commons License"
