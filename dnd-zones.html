@@ -10,6 +10,7 @@
     --muted: #555;
     --rule: #999;
     --shade: #f2f2f2;
+    --variant: #f4f4f4;
   }
 
   * { box-sizing: border-box; }
@@ -19,9 +20,9 @@
     padding: 0;
     color: var(--ink);
     background: white;
-    font-family: "Aptos", "Segoe UI", Arial, sans-serif;
-    font-size: 9.5pt;
-    line-height: 1.28;
+    font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif;
+    font-size: 10pt;
+    line-height: 1.26;
   }
 
   body {
@@ -41,7 +42,7 @@
     margin: 0 0 3mm;
     padding-bottom: 2mm;
     border-bottom: 1.2pt solid #222;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Noto Serif", "Liberation Serif", "DejaVu Serif", serif;
     font-size: 20pt;
     line-height: 1.05;
   }
@@ -55,7 +56,7 @@
   }
 
   h2, h3 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Noto Serif", "Liberation Serif", "DejaVu Serif", serif;
     break-after: avoid;
     page-break-after: avoid;
   }
@@ -83,12 +84,7 @@
     padding-left: 3.5mm;
   }
 
-  li {
-    margin: 0 0 0.8mm;
-  }
-
-  strong { font-weight: 700; }
-  em { font-style: italic; }
+  li { margin: 0 0 0.8mm; }
 
   a {
     color: inherit;
@@ -117,9 +113,7 @@
     page-break-inside: avoid;
   }
 
-  thead {
-    display: table-header-group;
-  }
+  thead { display: table-header-group; }
 
   th, td {
     border: 0.45pt solid #888;
@@ -138,11 +132,25 @@
     page-break-inside: avoid;
   }
 
-  code {
-    font-family: Consolas, "Courier New", monospace;
-    font-size: 0.92em;
+  aside.variant {
+    background: var(--variant);
+    border: 0.5pt solid #bbb;
+    border-radius: 1.5mm;
+    padding: 3mm 3.5mm 2.5mm;
+    margin: 4mm 0 3mm;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
+  aside.variant h2 {
+    margin-top: 0;
+    padding-bottom: 1mm;
+    border-bottom: 0.5pt solid #aaa;
+  }
+
+  aside.variant p:last-child {
+    margin-bottom: 0;
+  }
 
   footer {
     column-span: all;
@@ -160,9 +168,7 @@
     page-break-inside: avoid;
   }
 
-  footer p {
-    margin: 0;
-  }
+  footer p { margin: 0; }
 
   footer .cc-logo img {
     width: 22mm;
@@ -171,9 +177,7 @@
     margin: 0;
   }
 
-  footer a {
-    overflow-wrap: anywhere;
-  }
+  footer a { overflow-wrap: anywhere; }
 
   @page {
     size: A4 portrait;
@@ -194,14 +198,12 @@
       column-rule: 0.3pt solid #bbb;
     }
 
-    h1, h2, h3, table, img {
+    h1, h2, h3, table, img, aside.variant {
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
 
-    a {
-      text-decoration: none;
-    }
+    a { text-decoration: none; }
   }
 
   @media screen and (max-width: 900px) {
@@ -289,13 +291,13 @@
 <p>For each enemy beyond the first affected in melee, one friendly in that melee is also affected. The GM may adjust this if one side greatly outnumbers the other.</p>
 <p>For example, a <em>fireball</em> could affect 2 enemies in close range and 3 enemies in melee, but would also catch 2 friendlies in that melee.</p>
 <p>Effects that select targets or exclude creatures work normally.</p>
+<aside class="variant">
 <h2>Variant: Extended-range combat</h2>
-<p>For battles in open terrain, you can double the normal zone ranges, allowing encounters to begin at 200 ft or more.</p>
-<table><thead><tr><th>Your zone</th><th>Long range (friendly)</th><th>Close range (friendly)</th><th>Melee</th><th>Close range (enemy)</th><th>Long range (enemy)</th></tr></thead><tbody><tr><td>Long range</td><td>Touch</td><td>100 ft</td><td>100 ft</td><td>100 ft</td><td>200 ft</td></tr><tr><td>Close range</td><td>100 ft</td><td>Touch</td><td>50 ft</td><td>50 ft</td><td>100 ft</td></tr><tr><td>Melee</td><td>100 ft</td><td>50 ft</td><td>Touch</td><td>50 ft</td><td>100 ft</td></tr></tbody></table>
-<p>Movement costs are doubled accordingly:</p>
-<table><thead><tr><th>Movement</th><th>Cost</th></tr></thead><tbody><tr><td>Out of combat to long range</td><td>2 standard moves or more, as appropriate</td></tr><tr><td>Between long range and close range</td><td>2 standard moves</td></tr><tr><td>Move the focus</td><td>2 standard moves</td></tr><tr><td>Engage an enemy in close range</td><td>2 standard moves</td></tr><tr><td>Join an existing melee</td><td>1 standard move</td></tr><tr><td>Withdraw from melee to close range</td><td>2 standard moves</td></tr></tbody></table>
-<p>Extended-range combat gives long-range weapons and high movement speeds more room to matter, and allows battles that would require impractical amounts of space on a grid.</p>
-
+<p>For battles in open terrain, double the normal zone ranges, allowing encounters to begin at 200 ft or more.</p>
+<p>Use <strong>50 ft</strong> instead of 25 ft, <strong>100 ft</strong> instead of 50 ft, and <strong>200 ft</strong> instead of 100 ft.</p>
+<p>Movement costs are also doubled: moving between long and close range, moving the focus, engaging an enemy, and withdrawing from melee each cost <strong>2 standard moves</strong>. Joining an existing melee costs <strong>1 standard move</strong>. Moving between out of combat and long range costs <strong>2 standard moves or more, as appropriate</strong>.</p>
+<p>This gives long-range weapons and high movement speeds more room to matter, and allows battles that would require impractical amounts of space on a grid.</p>
+</aside>
 <footer>
   <p class="cc-logo">
     <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
@@ -310,7 +312,6 @@
     <a href="https://github.com/sgryphon/dungeons-dragons-zoned-combat">https://github.com/sgryphon/dungeons-dragons-zoned-combat</a>
   </p>
 </footer>
-
 </main>
 </body>
 </html>
