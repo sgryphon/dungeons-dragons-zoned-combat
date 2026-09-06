@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sly's Rules for Zoned Combat</title>
+<title>Rules for Zoned Combat</title>
 <style>
   :root {
     --ink: #111;
@@ -20,7 +20,7 @@
     padding: 0;
     color: var(--ink);
     background: white;
-    font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif;
+    font-family: "Liberation Sans", "DejaVu Sans", "Noto Sans", sans-serif;
     font-size: 10pt;
     line-height: 1.26;
   }
@@ -42,7 +42,7 @@
     margin: 0 0 3mm;
     padding-bottom: 2mm;
     border-bottom: 1.2pt solid #222;
-    font-family: "Noto Serif", "Liberation Serif", "DejaVu Serif", serif;
+    font-family: "Liberation Serif", "DejaVu Serif", "Noto Serif", serif;
     font-size: 20pt;
     line-height: 1.05;
   }
@@ -56,7 +56,7 @@
   }
 
   h2, h3 {
-    font-family: "Noto Serif", "Liberation Serif", "DejaVu Serif", serif;
+    font-family: "Liberation Serif", "DejaVu Serif", "Noto Serif", serif;
     break-after: avoid;
     page-break-after: avoid;
   }
@@ -152,6 +152,11 @@
     margin-bottom: 0;
   }
 
+  .movement-start {
+    break-before: column;
+    -webkit-column-break-before: always;
+  }
+
   footer {
     column-span: all;
     margin-top: 7mm;
@@ -204,6 +209,10 @@
     }
 
     a { text-decoration: none; }
+
+    .screen-only {
+      display: none !important;
+    }
   }
 
   @media screen and (max-width: 900px) {
@@ -220,7 +229,7 @@
 </head>
 <body>
 <main>
-<h1>Sly's Rules for Zoned Combat</h1>
+<h1>Rules for Zoned Combat</h1>
 <p>For Dungeons &amp; Dragons, 5th edition.</p>
 <h2>Introduction</h2>
 <p>Zoned combat sits between gridded combat and pure theatre of the mind. It keeps meaningful range, movement, engagement, and area effects, but replaces exact positioning with abstract zones.</p>
@@ -231,7 +240,7 @@
 <p>In return, combat is faster and easier to run while still answering the common theatre-of-the-mind questions: "How far away are they?", "Where am I relative to the fight?", and "Can I reach them and attack?"</p>
 <p><em>Figure: Ultimate Dungeon Terrain</em></p>
 <p><img src="dnd-zones.png" alt="Ultimate Dungeon Terrain Zones"></p>
-<p>Printable sheet: <a href="dnd-zones-udt.pdf">Zoned Combat - Ultimate Dungeon Terrain</a></p>
+<p class="screen-only">Printable sheet: <a href="dnd-zones-udt.pdf">Zoned Combat - Ultimate Dungeon Terrain</a></p>
 <h2>Zones</h2>
 <p>Combat uses four abstract positions:</p>
 <ul><li><strong>Out of combat</strong>, outside the active fight.</li><li><strong>Long range</strong>, far from the current action, with a separate long-range area for each side.</li><li><strong>Close range</strong>, near the current focus of the fight.</li><li><strong>Melee</strong>, engaged in close combat, within the close range zone.</li></ul>
@@ -258,7 +267,7 @@
 <p><strong>50 ft</strong> covers effects such as <em>ray of frost</em> and <em>chromatic orb</em>, normal range for a shortbow, and long range for a spear.</p>
 <p><strong>100 ft</strong> covers effects such as <em>fire bolt</em>, normal range for a longbow, and long range for a shortbow.</p>
 <p>Any creature in a melee may attack any other creature in the same melee. Reach and exact positioning within melee are not tracked.</p>
-<h2>Movement</h2>
+<h2 class="movement-start">Movement</h2>
 <p>A standard move represents about 30 ft of movement. You normally get one standard move per turn; Dash gives you another.</p>
 <table><thead><tr><th>Movement</th><th>Cost</th><th>Notes</th></tr></thead><tbody><tr><td>Out of combat to long range</td><td>2 standard moves</td><td>or vice versa</td></tr><tr><td>Between long range and close range</td><td>1 standard move</td><td>or vice versa</td></tr><tr><td>Move the focus</td><td>1 standard move</td><td>shifts an enemy from long range to close range</td></tr><tr><td>Engage an enemy in close range</td><td>1 standard move</td><td>moves both of you into melee</td></tr><tr><td>Join an existing melee</td><td>1 standard move</td><td>possible with only 1/2 a standard move</td></tr><tr><td>Withdraw from melee to close range</td><td>1 standard move</td><td>may trigger an opportunity attack</td></tr></tbody></table>
 <p>To engage an enemy at long range, first move the focus to bring them into close range, then engage them.</p>
